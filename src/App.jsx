@@ -7,6 +7,8 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import AboutMe from './components/AboutMe';
+import PersonalSkills from './components/PersonalSkills';
 
 function App() {
   return (
@@ -15,12 +17,20 @@ function App() {
       <main>
         <Home />
         <About />
+        <AboutMe />
         <Education />
         <Skills />
+        <PersonalSkills />
         <Experience />
         <Projects />
       </main>
       <Contact />
+      <button
+  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+  className="scroll-top"
+>
+<i className="fas fa-chevron-up"></i> Back to Top
+</button>
     </>
   );
 }

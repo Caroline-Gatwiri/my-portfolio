@@ -12,13 +12,27 @@ const About = () => {
         </div>
         <div className="about-photo-container">
           <img
-            src="./src/assets/react.svg" // Replace with your own image or import local photo
+            src="/img/passport.jpeg"
             alt="Caroline Gatwiri"
             className="about-photo"
           />
         </div>
       </div>
+
+      {/* Social Links */}
+      <div className="social-links">
+        <a href="https://github.com/Caroline-Gatwiri" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/caroline-gatwiri/" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:gatwiri123caroline@gmail.com">
+          <i className="fas fa-envelope"></i>
+        </a>
+      </div>
     </section>
+    
   );
 };
 

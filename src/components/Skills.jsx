@@ -1,20 +1,40 @@
 import React from 'react';
 
 const Skills = () => {
-  const skills = [
-    'Mobile Application Development (Kotlin, Android Studio, Java, React Native)',
-    'UI/UX Design, Git, Firebase, SQL, NoSQL, API Testing (Postman)',
-    'Agile Methodology, ERP Systems (SAP, Oracle, Microsoft Dynamics, NetSuite)',
-  ];
-
   return (
     <section id="skills" className="skills-section">
       <h2>TECH SKILLS</h2>
-      <ul className="skills-list">
-        {skills.map((skill, index) => (
-          <li key={index} className="skill-item">{skill}</li>
-        ))}
-      </ul>
+      <div className="skill-categories">
+        {/* Mobile Development */}
+        <div className="skill-category">
+          <h3>MOBILE DEVELOPMENT</h3>
+          <ul>
+            <li>KOTLIN</li>
+            <li>JAVA</li>
+            <li>REACT NATIVE</li>
+          </ul>
+        </div>
+
+        {/* UI/UX Design */}
+        <div className="skill-category">
+          <h3>UI/UX DESIGN</h3>
+          <ul>
+            <li>FIGMA</li>
+            <li>WIREFRAMING & PROTOTYPING</li>
+            <li>USER-CENTERED DESIGN</li>
+          </ul>
+        </div>
+
+        {/* Backend & Databases */}
+        <div className="skill-category">
+          <h3>BACKEND & DATABASES</h3>
+          <ul>
+            <li>FIREBASE</li>
+            <li>RESTFUL APIS</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+      </div>
     </section>
   );
 };

@@ -4,21 +4,32 @@ const Education = () => {
   return (
     <section id="education" className="education-section">
       <h2>EDUCATION</h2>
-      <div className="education-list">
+      <div className="education-grid">
+        {/* 2024 - 2025 */}
         <div className="education-item">
-          <h3>2024 – 2025</h3>
-          <h4>African Leadership University (ALX)</h4>
-          <p>Professional Foundations and Front End Development</p>
+          <div className="timeline">2024 – 2025</div>
+          <div className="institution">
+            <strong>African Leadership University (ALX)</strong>
+            <p>Professional Foundations and Front End Development</p>
+          </div>
         </div>
+
+        {/* 2023 - 2024 */}
         <div className="education-item">
-          <h3>2023 – 2024</h3>
-          <h4>The Visiola Foundation</h4>
-          <p>Data Analytics Using Python and SQL</p>
+          <div className="timeline">2023 – 2024</div>
+          <div className="institution">
+            <strong>The Visiola Foundation</strong>
+            <p>Data Analytics Using Python and SQL</p>
+          </div>
         </div>
+
+        {/* 2019 - 2023 */}
         <div className="education-item">
-          <h3>2019 – 2023</h3>
-          <h4>Meru University of Science and Technology</h4>
-          <p>Bachelor of Science in Computer Science</p>
+          <div className="timeline">2019 – 2023</div>
+          <div className="institution">
+            <strong>Meru University of Science and Technology</strong>
+            <p>Bachelor of Science in Computer Science</p>
+          </div>
         </div>
       </div>
     </section>
