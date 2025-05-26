@@ -27,6 +27,11 @@ const Header = () => (
           </a>
         </li>
         <li>
+        <a href="#projects"  onClick={(e) => { e.preventDefault(); scrollToSection('projects'); }}>
+          Projects
+        </a>
+        </li>
+        <li>
         <a href="/cv/Caroline Gatwiri CV.pdf" target="_blank" rel="noopener noreferrer">
           Download Resume
         </a>
