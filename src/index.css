@@ -37,7 +37,7 @@ h1, h2, h3, h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh;
+  min-height: 60vh;
   padding: 10px;
   background-color: #071426; /* Dark navy */
 }
