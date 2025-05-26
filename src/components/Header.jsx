@@ -26,6 +26,11 @@ const Header = () => (
             Contact Us
           </a>
         </li>
+        <li>
+        <a href="/cv/Caroline Gatwiri CV.pdf" target="_blank" rel="noopener noreferrer">
+          Download Resume
+        </a>
+        </li>
       </ul>
     </nav>
   </header>
